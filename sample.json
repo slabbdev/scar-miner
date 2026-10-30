@@ -1,0 +1,782 @@
+[
+ {
+  "c_k": "bccbae0502",
+  "c_k1": "96921d227d",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 14.8,
+  "subj_k": "feat: Enable WebGPU: load pages as file:// documents + flip WebKit feature flag\" feat: upd",
+  "subj_k1": "fix: install more robust",
+  "overlap": [
+   "before",
+   "install",
+   "installer",
+   "local",
+   "read",
+   "then",
+   "there",
+   "tinyjs"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "ac518145ed",
+  "c_k1": "a043465f83",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 46.3,
+  "subj_k": "feat: Vite/React/TS templates (new --template), HMR dev servers in the native window, esbu",
+  "subj_k1": "fix: backend/tsconfig.json in Vite-template scaffolds so editors resolve tinyjs types outs",
+  "overlap": [
+   "CHANGELOG",
+   "JSON",
+   "TinyApiHandler",
+   "TinyApp",
+   "Vite",
+   "ambient",
+   "backend",
+   "bundler"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "04e055413c",
+  "c_k1": "381e53ec54",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 58.6,
+  "subj_k": "feat: Mac superpowers \u2014 pickColor, ocr, thumbnail, secrets, authenticate, applescript; aut",
+  "subj_k1": "feat: media tier \u2014 Now Playing + media keys, say()/voices, notification actions & reply",
+  "overlap": [
+   "AVFoundation",
+   "AppKit",
+   "BOOL",
+   "CHANGELOG",
+   "Carbon",
+   "Control",
+   "Each",
+   "IOKit"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "67d9a90df0",
+  "c_k1": "7ff4ac65ec",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 12.6,
+  "subj_k": "feat: tiny.fetch \u2014 backend-proxied fetch (no CORS) with a live streaming body",
+  "subj_k1": "feat: tiny.proxyURL \u2014 cross-origin media streams into Web Audio (no CORS taint)",
+  "overlap": [
+   "CHANGELOG",
+   "CORS",
+   "Headers",
+   "Origin",
+   "Pass",
+   "README",
+   "SKILL",
+   "Same"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "78c899fab5",
+  "c_k1": "c5e1aeea5d",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 10.4,
+  "subj_k": "feat(windows): audioTap (WASAPI loopback) + working drag handoff",
+  "subj_k1": "fix(windows): drag-out watchdog \u2014 a never-returning DoDragDrop wedged drag&drop system-wid",
+  "overlap": [
+   "DWORD",
+   "GetAsyncKeyState",
+   "GetCurrentThreadId",
+   "Sleep",
+   "VK_LBUTTON",
+   "already",
+   "always",
+   "atomic"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "b228c708c9",
+  "c_k1": "786639bb43",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 2.7,
+  "subj_k": "fix(installer): decode checksums.txt byte[] \u2014 GitHub serves it as octet-stream, PS 5.1 ret",
+  "subj_k1": "docs: TODO-windows \u2014 release verified live, audioTap/Hello/chromeless done",
+  "overlap": [
+   "UseBasicParsing",
+   "byte",
+   "checksums",
+   "decode",
+   "install",
+   "octet",
+   "returns",
+   "stream"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "27f98f398a",
+  "c_k1": "3988416d40",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 9.0,
+  "subj_k": "feat: tiny.fileURL(path) \u2014 one correct file:// builder for both OSes; audioTap scope app r",
+  "subj_k1": "feat(windows): UNC media support \u2014 Parallels/network shares play untainted",
+  "overlap": [
+   "Windows",
+   "becomes",
+   "drive",
+   "encodeURIComponent",
+   "file",
+   "host",
+   "join",
+   "launcher"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "623a205463",
+  "c_k1": "12bd2988af",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 23.9,
+  "subj_k": "docs(skill): never declare a top-level `chrome` identifier",
+  "subj_k1": "feat(windows): emoji tray icons \u2014 the asset-free twin of sf: symbols",
+  "overlap": [
+   "SKILL",
+   "skill"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "43a7b0104f",
+  "c_k1": "49b7bdf052",
+  "author": "tarwin",
+  "dt_min": 0.2,
+  "subj_k": "feat(linux): the launcher \u2014 GTK3 + WebKitGTK 4.1",
+  "subj_k1": "feat(linux): CLI, bridge, and updater grow Linux branches",
+  "overlap": [
+   "Application",
+   "BEFORE",
+   "Desktop",
+   "Entry",
+   "File",
+   "Icon",
+   "Linux",
+   "Notifications"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "0aaf63554e",
+  "c_k1": "573b22cb0e",
+  "author": "tarwin",
+  "dt_min": 17.8,
+  "subj_k": "feat(linux): spotlight name search + specific unsupported messages",
+  "subj_k1": "fix(linux): frameless window drag on Wayland",
+  "overlap": [
+   "gboolean",
+   "gpointer",
+   "launcher",
+   "linux",
+   "native",
+   "nullptr",
+   "real",
+   "rest"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "e5917e0f78",
+  "c_k1": "c633fed1cc",
+  "author": "tarwin",
+  "dt_min": 2.0,
+  "subj_k": "fix(linux): audioTap captured nothing without parec",
+  "subj_k1": "docs(linux): record audioTap + auto-update verification",
+  "overlap": [
+   "capture",
+   "linux",
+   "record",
+   "silence",
+   "then"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "f249b93a42",
+  "c_k1": "e20040aac0",
+  "author": "tarwin",
+  "dt_min": 9.1,
+  "subj_k": "linux: native audio filters \u2014 tiny.audio.filters / balance \u2014 plus zoom & min-size",
+  "subj_k1": "linux: note the x86_64 build plan (Ubuntu + Rosetta builds both arches)",
+  "overlap": [
+   "PipeWire",
+   "TODO",
+   "already",
+   "also",
+   "audio",
+   "because",
+   "been",
+   "before"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "2eb4930029",
+  "c_k1": "18e52c3ae9",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 0.2,
+  "subj_k": "api: intent-named app-surface verbs, app.progress, and tiny.macos.*",
+  "subj_k1": "site: api.html becomes docs.html \u2014 install section, side rail, relative links",
+  "overlap": [
+   "AppleScript",
+   "Dock",
+   "Each",
+   "Error",
+   "Finder",
+   "Linux",
+   "Look",
+   "Macs"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "c7728244e4",
+  "c_k1": "b651dacc35",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 0.0,
+  "subj_k": "macos: satellite setSize sets the FRAME size, so set -> get round-trips",
+  "subj_k1": "win: draw an overlay badge \u2014 UNTESTED, capabilities() still says false",
+  "overlap": [
+   "Windows",
+   "every",
+   "launcher",
+   "native",
+   "reports",
+   "size",
+   "still"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "06e11396cb",
+  "c_k1": "950d701972",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 26.4,
+  "subj_k": "chrome: trafficLights becomes windowControls, and works everywhere",
+  "subj_k1": "cli: `dev` refreshes a stale launcher on macOS too",
+  "overlap": [
+   "anything",
+   "code",
+   "gets",
+   "here",
+   "html",
+   "launcher",
+   "linux",
+   "macOS"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "0b154997ee",
+  "c_k1": "1eb1d38b9e",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 12.4,
+  "subj_k": "docs: tiny.system \u2014 isWindows, architecture, missing in README + docs",
+  "subj_k1": "docs: clipboard.unwatch \u2014 say what it does and doesn't stop",
+  "overlap": [
+   "README",
+   "html",
+   "says",
+   "tiny"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "bf1d2be7f4",
+  "c_k1": "505e17925c",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 5.1,
+  "subj_k": "launchers: thumbnail any path; capabilities stops over-claiming six more",
+  "subj_k1": "TODO-verify: keystroke/paste and app.ai are done, with numbers",
+  "overlap": [
+   "Accessibility",
+   "Answers",
+   "Asking",
+   "System",
+   "TINYJS_AI",
+   "TODO",
+   "Then",
+   "after"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "2d94b9477a",
+  "c_k1": "aa575f2ba0",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 6.0,
+  "subj_k": "cli: a speechRecognition permission, so a page can do speech-to-text",
+  "subj_k1": "TODO-api-review: tool calling for macos.ai \u2014 feasible, and its failure rate",
+  "overlap": [
+   "Measured",
+   "TODO",
+   "answer",
+   "anything",
+   "back",
+   "been",
+   "build",
+   "builds"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "4d18430351",
+  "c_k1": "25cd0caaa9",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 1.6,
+  "subj_k": "docs: two more wire proofs \u2014 badge('NEW') hides, and GTK clobbers our MWM hints",
+  "subj_k1": "docs: Linux secrets verified \u2014 replace semantics and all, the keyring was unlocked",
+  "overlap": [
+   "GNOME",
+   "TODO",
+   "after",
+   "launcher",
+   "reads",
+   "real",
+   "than",
+   "that"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "316fb9096a",
+  "c_k1": "ce5bda4ab8",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 37.5,
+  "subj_k": "menus: the app menu in every window, per-window overrides \u2014 and Windows frameless edges",
+  "subj_k1": "linux menus: first compile of the per-window bars \u2014 three bugs, all fixed",
+  "overlap": [
+   "AFTER",
+   "COMPILED",
+   "Deferred",
+   "Details",
+   "Dock",
+   "Each",
+   "First",
+   "GtkAccelGroup"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "713420e7b1",
+  "c_k1": "dbaffa905c",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 3.7,
+  "subj_k": "window-state events on all three launchers + movable traffic lights on macOS",
+  "subj_k1": "changelog: 0.31.0",
+  "overlap": [
+   "AppKit",
+   "Backend",
+   "CHANGELOG",
+   "Ignored",
+   "Like",
+   "Linux",
+   "Same",
+   "Unreleased"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "25e207ba7e",
+  "c_k1": "9542b95e50",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 1.4,
+  "subj_k": "changelog: unreleased \u2014 linux glibc floor, wayland mouseTracking in downloads",
+  "subj_k1": "docs: linux packaging must run in 22.04 userspace, both arches",
+  "overlap": [
+   "Debian",
+   "GLIBC_2",
+   "Ubuntu",
+   "arm64",
+   "asserts",
+   "build",
+   "builds",
+   "check"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "860077d29e",
+  "c_k1": "9c8bc841a3",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 21.1,
+  "subj_k": "feat: tiny.audio.sampler \u2014 sampled SFX mixer, native on Linux",
+  "subj_k1": "docs: kitchen-sink mac download points at the 0.16.1 sampler build",
+  "overlap": [
+   "download",
+   "examples",
+   "github",
+   "href",
+   "html",
+   "sink"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "2ec58b28ef",
+  "c_k1": "2874e64ce7",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 0.2,
+  "subj_k": "dialogs: file pickers take { types } \u2014 native type filters on all three OSes",
+  "subj_k1": "changelog: 0.35.0 \u2014 dialog file-type filters",
+  "overlap": [
+   "COMDLG_FILTERSPEC",
+   "File",
+   "GtkFileFilter",
+   "Linux",
+   "Windows",
+   "allowedContentTypes",
+   "also",
+   "always"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "51d500e537",
+  "c_k1": "0218c70ff8",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 28.6,
+  "subj_k": "verify: browser accelerators suppressed by default, tinyjs.json opt-in",
+  "subj_k1": "feat: devtools opt-in (tinyjs.json debug), browser accelerators suppressed by default, lau",
+  "overlap": [
+   "AcceleratorKeyPressed",
+   "Ctrl",
+   "Decision",
+   "ICoreWebView2Settings3",
+   "Settings3",
+   "TODO",
+   "WebView2",
+   "Windows"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "ab23d5283b",
+  "c_k1": "f0a60a4dde",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 13.2,
+  "subj_k": "docs: nib downloads \u2192 0.1.10 (mac dmg + both Linux tarballs)",
+  "subj_k1": "docs: nib windows download \u2192 0.1.10",
+  "overlap": [
+   "download",
+   "examples",
+   "github",
+   "href",
+   "html",
+   "panel",
+   "releases",
+   "tarwin"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "bc41aa8cde",
+  "c_k1": "3e1158c554",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 13.0,
+  "subj_k": "fix: read the CALL origin stamp as the last element, never position [1]",
+  "subj_k1": "docs: adversarial probes for the wrapper gate, and per-OS boxes for them",
+  "overlap": [
+   "ACTIVE",
+   "Also",
+   "CALL",
+   "Handled",
+   "JSON",
+   "LAST",
+   "Linux",
+   "Navigate"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "61c5195f9e",
+  "c_k1": "b3ece79fad",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 2.6,
+  "subj_k": "docs: the Linux adversarial pass \u2014 what denied, and what never could",
+  "subj_k1": "fix: logo",
+  "overlap": [
+   "full",
+   "href",
+   "none",
+   "path"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "08ce99c614",
+  "c_k1": "98751f5c34",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 7.5,
+  "subj_k": "docs: nib 0.2.0 mac download link",
+  "subj_k1": "docs: nib 0.2.0 linux links",
+  "overlap": [
+   "download",
+   "examples",
+   "github",
+   "href",
+   "html",
+   "releases",
+   "tarwin",
+   "tinyjsapp"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "fb76395ad5",
+  "c_k1": "b68cf756e1",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 22.5,
+  "subj_k": "feat: more edit menu options that make cross platform similar",
+  "subj_k1": "fix(linux): context-menu undo/redo via editing commands, not stock actions",
+  "overlap": [
+   "G_CALLBACK",
+   "Redo",
+   "Undo",
+   "WEBKIT_CONTEXT_MENU_ACTION_CUT",
+   "WEBKIT_CONTEXT_MENU_ACTION_REDO",
+   "WEBKIT_CONTEXT_MENU_ACTION_UNDO",
+   "WEBKIT_EDITING_COMMAND_REDO",
+   "WEBKIT_EDITING_COMMAND_UNDO"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "9a7c523429",
+  "c_k1": "6454faf78b",
+  "author": "slabbdev",
+  "dt_min": 14.2,
+  "subj_k": "fix(runtime): reject CR/LF header names/values in the curl repair hop",
+  "subj_k1": "fix(build): XML-escape config values interpolated into Info.plist",
+  "overlap": [
+   "rejects",
+   "values"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "0476b483e1",
+  "c_k1": "cf7db5008f",
+  "author": "slabbdev",
+  "dt_min": 6.2,
+  "subj_k": "wrap: --menubar and --top window modes",
+  "subj_k1": "wrap: --external opens listed domains in the system browser",
+  "overlap": [
+   "JSON",
+   "always",
+   "encode",
+   "fail",
+   "includes",
+   "length",
+   "menubar",
+   "name"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "965acddef0",
+  "c_k1": "9cc5510b4b",
+  "author": "Sam Catlow",
+  "dt_min": 0.0,
+  "subj_k": "fix(install): find ldconfig outside PATH; add openSUSE hint",
+  "subj_k1": "docs: openSUSE setup instructions",
+  "overlap": [
+   "command",
+   "config",
+   "echo",
+   "install",
+   "libwebkit2gtk",
+   "linux",
+   "openSUSE",
+   "sudo"
+  ],
+  "label": "forward"
+ },
+ {
+  "c_k": "efc020d50c",
+  "c_k1": "2f991f85e8",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 48.5,
+  "subj_k": "release: v0.44.0 \u2014 tinyjs wrap (#20)",
+  "subj_k1": "fix: follow-ups on #21 and #16",
+  "overlap": [
+   "code",
+   "copy",
+   "every",
+   "file",
+   "full",
+   "once",
+   "replace",
+   "store"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "284bcceeeb",
+  "c_k1": "6441c20c6d",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 0.0,
+  "subj_k": "fix(bridge): key tiny.fetch streams by calling window (#30)",
+  "subj_k1": "fix(bridge): flatten \\r and \\t in window titles too (#30)",
+  "overlap": [
+   "bridge",
+   "runtime"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "b52cd84b64",
+  "c_k1": "787d557c4d",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 19.1,
+  "subj_k": "fix(win): instance-pipe ACL + owner check, page win.open confinement, session-pipe token (",
+  "subj_k1": "fix(linux): drop untokened calls from a tokened window \u2014 subframes can't borrow the top fr",
+  "overlap": [
+   "Before",
+   "CHANGELOG",
+   "Linux",
+   "TODO",
+   "Windows",
+   "above",
+   "access",
+   "after"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "00388c1837",
+  "c_k1": "2875fe3e2a",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 0.6,
+  "subj_k": "docs(api): spell out what '*' matches in origin keys; fix the onNavigate prefix example (#",
+  "subj_k1": "docs(skill): page system-access claim names the proxy and media exceptions; meta.origin is",
+  "overlap": [
+   "also",
+   "anything",
+   "everything",
+   "must",
+   "origin",
+   "that"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "70b03f69fb",
+  "c_k1": "a87d28ff95",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 6.3,
+  "subj_k": "docs(verify): other URL schemes reach onNavigate on Windows (#30.2)",
+  "subj_k1": "docs(launchers): why file:// universal access is safe, with a probe (#30.7)",
+  "overlap": [
+   "Linux",
+   "README",
+   "TODO",
+   "URLs",
+   "both",
+   "fail",
+   "file",
+   "frame"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "4340c9861b",
+  "c_k1": "8dc4b2fdc7",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 5.8,
+  "subj_k": "release: v0.47.0 \u2014 tiny-media proxy gate, other URL schemes to onNavigate, bundled update ",
+  "subj_k1": "docs(verify): v0.47.0 packages carry the bundled installer (#30.3)",
+  "overlap": [
+   "Linux",
+   "Windows",
+   "install",
+   "macOS",
+   "tinyjs"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "b3fe27f17d",
+  "c_k1": "5d4b418dd9",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 0.9,
+  "subj_k": "fix(pdf): a page's printToPDF path is confined unless the page is the app's own; save pane",
+  "subj_k1": "fix(win): nudge the webview's bounds on each window's first navigation, so a late dev-serv",
+  "overlap": [
+   "TODO",
+   "Windows",
+   "back",
+   "blank",
+   "call",
+   "compiled",
+   "empty",
+   "file"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "cf5618fe55",
+  "c_k1": "a6ede8f1b1",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 5.8,
+  "subj_k": "fix(cli): stop with \"run npm install first\" when a bundler frontend has no node_modules (#",
+  "subj_k1": "fix(build): a backend entry at the project root no longer copies .build into itself",
+  "overlap": [
+   "TODO",
+   "after",
+   "backend",
+   "before",
+   "build",
+   "builds",
+   "bundle",
+   "change"
+  ],
+  "label": "regret"
+ },
+ {
+  "c_k": "cfb11c3494",
+  "c_k1": "2d0692ccf3",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 4.9,
+  "subj_k": "fix(build): run esbuild outside npm's devEngines check",
+  "subj_k1": "docs(verify): new --template prompts + esbuild change verified on Windows and Linux",
+  "overlap": [
+   "TODO",
+   "Windows",
+   "backend",
+   "both",
+   "build",
+   "esbuild",
+   "manager",
+   "package"
+  ],
+  "label": "unclear"
+ },
+ {
+  "c_k": "5813ad5e3e",
+  "c_k1": "a3cb44f80c",
+  "author": "Tarwin Stroh-Spijer",
+  "dt_min": 4.8,
+  "subj_k": "feat(windows): \"mainWindow\": false \u2014 truly windowless tray agents",
+  "subj_k1": "fix: windowless review fixes \u2014 Windows DPI + hidewin, Linux icon at open",
+  "overlap": [
+   "Linux",
+   "TINYJS_ICON",
+   "TODO",
+   "Windowless",
+   "Windows",
+   "above",
+   "after",
+   "apps"
+  ],
+  "label": "regret"
+ }
+]
